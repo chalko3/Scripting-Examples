@@ -8,7 +8,7 @@ public class FunctionsAndMethods : MonoBehaviour
 
     // Methods, on the other hand, are functions that are associated with a specific object or class. They can be called and executed on instances of that object or class.
 
-    // Declare our varuiables
+    // Declare our variables
     private AudioSource _audioSource;
     private float _speed = 10f;
     private int _playerHealthAmount = 100;
