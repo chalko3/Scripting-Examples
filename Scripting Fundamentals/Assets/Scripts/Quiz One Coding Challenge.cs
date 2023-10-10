@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class QuizOneCodingChallenge : MonoBehaviour
 {
-    private int score = 0;
+    public int score = 0;
     public string playerName = "John Doe";
-    private int health = 100;
+    public int health = 100;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,9 +27,9 @@ public class QuizOneCodingChallenge : MonoBehaviour
         score += 10;
     }
 
-    public void PrintPlayerName()
+    private void PrintPlayerName()
     {
-        Debug.Log("Player Name: " + playerName);
+        Debug.Log(playerName);
     }
 
     private void DecreaseHealth()
